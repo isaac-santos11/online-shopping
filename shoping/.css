@@ -1,0 +1,141 @@
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    color: #5D5D7D;
+}
+
+p {
+    width: 550px;
+    height: 144px;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #5D5D7D;
+    margin: 0px 0px 10px;
+}
+
+button {
+    width: 219px;
+    height: 50px;
+    border-radius: 24px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #9499EA;
+}
+
+button:active {
+    opacity: 0.50;
+    width: 267px;
+    height: 60px;
+    border-radius: 23px;
+}
+
+button:hover {
+    opacity: 0.60;
+}
+
+img {
+    position: relative;
+    margin-top: 17%;
+    margin-left: -100px;
+    width: 350px;
+}
+
+header {
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 376px;
+    height: 41.12px;
+}
+
+
+
+#conteiner-left {
+    margin-top: 150px;
+    margin-left: 55px;
+    width: 65%;
+    display: inline-block;
+}
+
+#conteiner-right {
+    position: absolute;
+    display: inline-block;
+    height: 97vh;
+    width: 380px;
+    margin-left: 46px;
+    background-color: rgba(93, 93, 125, 0.16);
+}
+
+.link {
+    height: 41px;
+    width: 59px;
+    margin-right: 20px;
+    color: #5D5D7D;
+}
+
+a:nth-of-type(2) {
+    opacity: 0.50;
+}
+
+.link :active {
+    opacity: 0.25;
+    height: 39px;
+    width: 56px;
+}
+
+.link :hover {
+    opacity: 0.30;
+}
+
+@media screen and (max-height: 915px) and (max-width: 412px) {
+
+    img {
+        margin-top: 70px;
+        margin-left: 114px;
+    }
+
+    h1 {
+        height: 104px;
+        margin-left: 80px;
+    }
+
+    p {
+        margin-top: 100px;
+    }
+
+    button {
+        margin-top: 35px;
+        margin-left: 120px;
+    }
+
+    header {
+        margin-left: 214px;
+    }
+
+    #conteiner-right {
+        width: 154%;
+        height: 71%;
+        display: block;
+        margin-top: 113px;
+        margin-left: 0px;
+    }
+
+    .link {
+        display: none;
+    }
+
+}
